@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Sample Abstract EVM using Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# Documentation
+https://docs.abs.xyz/build-on-abstract/smart-contracts/hardhat
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+# Verify
+```
+npx hardhat verify --network abstractTestnet 0xe8C6a9f3F87852535bF6f7DA942B906A7b3D3441
 ```
